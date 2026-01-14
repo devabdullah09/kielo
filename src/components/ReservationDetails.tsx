@@ -20,7 +20,7 @@ const ReservationDetails = () => {
                 something truly exceptional.
               </p>
               
-              <div className="pt-6 sm:pt-8 border-t border-off-white/10">
+              {/* <div className="pt-6 sm:pt-8 border-t border-off-white/10">
                 <ul className="space-y-4 sm:space-y-5 font-light text-off-white/60">
                   <li className="flex items-start">
                     <span className="text-off-white/40 mr-3 sm:mr-4 mt-1">—</span>
@@ -35,7 +35,7 @@ const ReservationDetails = () => {
                     <span>Early updates and insider information</span>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

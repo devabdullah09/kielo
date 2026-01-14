@@ -38,6 +38,11 @@ const CallToAction = () => {
             Limited availability.
           </p>
           
+          {/* Imagery clarification */}
+          <p className="text-xs sm:text-sm text-off-white/50 font-light tracking-wide italic">
+            Final production specifications and component selection will be listed for the limited Kielo Founding Series.
+          </p>
+          
           <div className="pt-4 sm:pt-6">
             <button
               onClick={handleReserve}

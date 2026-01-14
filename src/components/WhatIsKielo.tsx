@@ -32,11 +32,11 @@ const WhatIsKielo = () => {
                 the test of time.
               </p>
               
-              <p className="text-off-white/60">
+              {/* <p className="text-off-white/60">
                 Rooted in calm confidence, restraint, and permanence. 
                 Substance over spectacle. Quality over quantity. 
                 Timelessness over trends.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
