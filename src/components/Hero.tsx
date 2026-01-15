@@ -21,6 +21,11 @@ const Hero = () => {
       <div className="relative z-20 w-full px-4 sm:px-6 md:px-8 lg:px-12">
         <div className="max-w-4xl mx-auto">
           <div className="max-w-xl text-left space-y-4 sm:space-y-6 md:space-y-8">
+            {/* Quiet anchor line */}
+            <p className="text-xs sm:text-sm md:text-base font-extralight tracking-[0.1em] uppercase text-off-white/50 leading-relaxed pb-12 sm:pb-16 md:pb-20">
+              BUILT TO FIT. BUILT FOR LIFE.
+            </p>
+            
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extralight tracking-[0.02em] text-off-white leading-[1.1]">
               Reserved
             </h1>

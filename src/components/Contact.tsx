@@ -70,13 +70,20 @@ const Contact = () => {
               </p>
             </div>
             
-            {/* Right side - email and social icons */}
+            {/* Right side - email, refund policy link, and social icons */}
             <div className="flex flex-col items-end space-y-2 sm:space-y-2.5">
               <a 
                 href="mailto:hello@kielo.cc" 
                 className="text-off-white/60 hover:text-off-white/80 transition-colors duration-300 font-light text-xs sm:text-sm tracking-wide"
               >
                 hello@kielo.cc
+              </a>
+              
+              <a 
+                href="#refund-policy" 
+                className="text-off-white/50 hover:text-off-white/70 transition-colors duration-300 font-light text-xs tracking-wide underline decoration-off-white/20 hover:decoration-off-white/40 underline-offset-2"
+              >
+                Refund Policy
               </a>
               
               <div className="flex items-center space-x-2.5">

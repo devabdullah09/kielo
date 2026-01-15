@@ -2,9 +2,12 @@ import './App.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import WhatIsKielo from './components/WhatIsKielo'
+import ConceptualBridge from './components/ConceptualBridge'
+import HowWeBuildTrust from './components/HowWeBuildTrust'
 import ImageSection from './components/ImageSection'
 import ReservationDetails from './components/ReservationDetails'
 import CallToAction from './components/CallToAction'
+import RefundPolicy from './components/RefundPolicy'
 import Contact from './components/Contact'
 
 function App() {
@@ -13,10 +16,13 @@ function App() {
       <Header />
       <Hero />
       <WhatIsKielo />
-      <ImageSection image="/images/IMG_3219.jpeg" height="medium" />
-      <ReservationDetails />
+      <ConceptualBridge />
+      <HowWeBuildTrust />
       <ImageSection image="/images/DSC04478.JPG" height="medium" />
+      <ReservationDetails />
+      <ImageSection image="/images/IMG_9761.jpeg" height="medium" />
       <CallToAction />
+      <RefundPolicy />
       <ImageSection image="/images/Kielo-v2-15.jpg" height="short" />
       <Contact />
     </div>

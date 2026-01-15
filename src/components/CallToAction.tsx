@@ -38,6 +38,11 @@ const CallToAction = () => {
             Limited availability.
           </p>
           
+          {/* Deposit clarification */}
+          <p className="text-xs sm:text-sm text-off-white/60 font-light tracking-wide">
+            $5,000 refundable reservation deposit. Final specifications confirmed during the fit process.
+          </p>
+          
           {/* Imagery clarification */}
           <p className="text-xs sm:text-sm text-off-white/50 font-light tracking-wide italic">
             Final production specifications and component selection will be listed for the limited Kielo Founding Series.
