@@ -21,11 +21,11 @@ const WhatIsKielo = () => {
         {/* Text side - spacious like Marimekko */}
         <div className="flex items-center justify-center p-6 sm:p-12 md:p-16 lg:p-24 relative order-2">
           <div className="max-w-xl w-full space-y-6 sm:space-y-8 md:space-y-10 relative z-10">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extralight text-off-white/90 tracking-[0.02em]">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-text-purple tracking-[0.02em] leading-relaxed">
               What Kielo Is
             </h2>
             
-            <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base md:text-lg text-off-white/70 leading-relaxed font-light tracking-wide">
+            <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base md:text-lg text-off-white/70 leading-relaxed font-normal tracking-wide">
               <p>
                 Kielo builds titanium bicycles designed from the rider outward.
               </p>

@@ -9,11 +9,11 @@ const ReservationDetails = () => {
         {/* Text side first on mobile, second on desktop */}
         <div className="flex items-center justify-center p-6 sm:p-12 md:p-16 lg:p-24 order-2 lg:order-1 relative">
           <div className="max-w-xl w-full space-y-6 sm:space-y-8 md:space-y-10 relative z-10">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extralight text-off-white/90 tracking-[0.02em]">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-text-purple tracking-[0.02em] leading-relaxed">
               Reservation
             </h2>
             
-            <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base md:text-lg text-off-white/70 leading-relaxed font-light tracking-wide">
+            <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base md:text-lg text-off-white/70 leading-relaxed font-normal tracking-wide">
               <p>
                 By reserving with Kielo, you secure priority access to our upcoming 
                 offerings. A commitment to quality, a step toward ownership of 

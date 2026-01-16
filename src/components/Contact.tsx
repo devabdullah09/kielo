@@ -21,11 +21,11 @@ const Contact = () => {
         {/* Text side */}
         <div className="flex items-center justify-center p-6 sm:p-12 md:p-16 lg:p-24 relative order-2">
           <div className="max-w-xl w-full space-y-6 sm:space-y-8 md:space-y-10 relative z-10">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extralight text-off-white/90 tracking-[0.02em]">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-text-purple tracking-[0.02em] leading-relaxed">
               Contact
             </h2>
             
-            <div className="space-y-4 sm:space-y-6 text-sm sm:text-base md:text-lg text-off-white/70 leading-relaxed font-light tracking-wide">
+            <div className="space-y-4 sm:space-y-6 text-sm sm:text-base md:text-lg text-off-white/70 leading-relaxed font-normal tracking-wide">
               <p>
                 Have questions about Kielo or your reservation? 
                 We'd love to hear from you.
@@ -34,7 +34,7 @@ const Contact = () => {
               <div className="pt-4 sm:pt-6">
                 <a 
                   href="mailto:hello@kielo.cc" 
-                  className="inline-block text-off-white/80 hover:text-off-white transition-colors duration-300 font-light text-base sm:text-lg tracking-wide underline decoration-off-white/30 hover:decoration-off-white/50 underline-offset-4 break-all sm:break-normal"
+                  className="inline-block text-off-white/80 hover:text-off-white transition-colors duration-300 font-normal text-base sm:text-lg tracking-wide underline decoration-off-white/30 hover:decoration-off-white/50 underline-offset-4 break-all sm:break-normal"
                 >
                   hello@kielo.cc
                 </a>
@@ -60,11 +60,11 @@ const Contact = () => {
                 />
               </div>
               
-              <p className="text-xs text-off-white/40 font-light italic">
+              <p className="text-xs text-off-white/40 font-normal italic">
                 sisu wayfinder
               </p>
               
-              <p className="text-xs text-off-white/30 font-light tracking-wide">
+              <p className="text-xs text-off-white/30 font-normal tracking-wide">
                 Helsinki → San Francisco<br />
                 © Kielo Cycling Inc.
               </p>
@@ -74,14 +74,14 @@ const Contact = () => {
             <div className="flex flex-col items-end space-y-2 sm:space-y-2.5">
               <a 
                 href="mailto:hello@kielo.cc" 
-                className="text-off-white/60 hover:text-off-white/80 transition-colors duration-300 font-light text-xs sm:text-sm tracking-wide"
+                className="text-off-white/60 hover:text-off-white/80 transition-colors duration-300 font-normal text-xs sm:text-sm tracking-wide"
               >
                 hello@kielo.cc
               </a>
               
               <a 
                 href="#refund-policy" 
-                className="text-off-white/50 hover:text-off-white/70 transition-colors duration-300 font-light text-xs tracking-wide underline decoration-off-white/20 hover:decoration-off-white/40 underline-offset-2"
+                className="text-off-white/50 hover:text-off-white/70 transition-colors duration-300 font-normal text-xs tracking-wide underline decoration-off-white/20 hover:decoration-off-white/40 underline-offset-2"
               >
                 Refund Policy
               </a>

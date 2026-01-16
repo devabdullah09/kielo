@@ -4,18 +4,23 @@
   --color-charcoal: #1a1a1a;
   --color-off-white: #fafafa;
   --color-heather: #6A6F9E;
+  --color-mineral-purple: #4B3A6A;
+  --color-text-purple: #6A5A8E;
+  --color-nordic-night: #39294D;
 }
 
 @layer base {
 body {
     background-color: var(--color-charcoal);
     color: var(--color-off-white);
-  margin: 0;
-  min-height: 100vh;
+    font-family: 'Source Sans 3', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    min-height: 100vh;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-feature-settings: "kern" 1;
     text-rendering: optimizeLegibility;
+    line-height: 1.7;
 }
   
   * {

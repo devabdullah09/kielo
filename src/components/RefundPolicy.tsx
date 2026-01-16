@@ -3,11 +3,11 @@ const RefundPolicy = () => {
     <section id="refund-policy" className="relative bg-charcoal py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
         <div className="space-y-6 sm:space-y-8">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extralight text-off-white/90 tracking-[0.02em]">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-text-purple tracking-[0.02em] leading-relaxed">
             Refund Policy
           </h2>
           
-          <div className="space-y-4 sm:space-y-5 text-sm sm:text-base md:text-lg text-off-white/70 leading-relaxed font-light tracking-wide">
+          <div className="space-y-4 sm:space-y-5 text-sm sm:text-base md:text-lg text-off-white/70 leading-relaxed font-normal tracking-wide">
             <p>
               Reservation deposits for Kielo bicycles are fully refundable until the rider's fit process has been completed and frame production has begun.
             </p>
