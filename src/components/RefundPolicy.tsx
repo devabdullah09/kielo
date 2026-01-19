@@ -3,7 +3,7 @@ const RefundPolicy = () => {
     <section id="refund-policy" className="relative bg-charcoal py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
         <div className="space-y-6 sm:space-y-8">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-text-purple tracking-[0.02em] leading-relaxed">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-off-white tracking-[0.02em] leading-relaxed">
             Refund Policy
           </h2>
           

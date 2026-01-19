@@ -1,7 +1,7 @@
 const CallToAction = () => {
   // Placeholder for Stripe Checkout URL
   const stripeCheckoutUrl = "#"
-  const ctaImage = '/images/DSC04470.JPG'
+  const ctaImage = '/images/Kieloflower.jpeg' // Kielo flowers image
 
   const handleReserve = () => {
     if (stripeCheckoutUrl && stripeCheckoutUrl !== "#") {
@@ -12,54 +12,58 @@ const CallToAction = () => {
   }
 
   return (
-    <section className="relative min-h-[60vh] sm:min-h-[70vh] flex items-center justify-center bg-charcoal overflow-hidden">
-      {/* Full-width background image - with actual colors */}
-      <div 
-        className="absolute inset-0"
-        style={{
-          backgroundImage: `url(${ctaImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      />
-      
-      {/* Subtle dark overlay */}
-      <div className="absolute inset-0 bg-charcoal/50" />
-      
-      {/* Centered content overlay */}
-      <div className="relative z-10 max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center py-16 sm:py-20 md:py-24 lg:py-32">
-        <div className="space-y-6 sm:space-y-10 md:space-y-12">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extralight text-off-white/95 tracking-[0.02em]">
-            Reserve Your Place
-          </h2>
-          
-          <p className="text-base sm:text-lg md:text-xl text-off-white/70 font-normal tracking-wide leading-relaxed max-w-lg mx-auto px-2">
-            Secure your reservation through our secure checkout process. 
-            Limited availability.
-          </p>
-          
-          {/* Deposit clarification */}
-          <p className="text-xs sm:text-sm text-off-white/60 font-normal tracking-wide">
-            $5,000 refundable reservation deposit. Final specifications confirmed during the fit process.
-          </p>
-          
-          {/* Imagery clarification */}
-          <p className="text-xs sm:text-sm text-off-white/50 font-normal tracking-wide italic">
-            Final production specifications and component selection will be listed for the limited Kielo Founding Series.
-          </p>
-          
-          <div className="pt-4 sm:pt-6">
-            <button
-              onClick={handleReserve}
-              className="group relative inline-flex items-center justify-center px-8 sm:px-12 md:px-16 py-3 sm:py-4 md:py-5 text-xs sm:text-sm md:text-base font-medium tracking-[0.15em] uppercase text-off-white bg-mineral-purple rounded-full transition-all duration-300 hover:bg-nordic-night focus:outline-none focus:ring-2 focus:ring-mineral-purple/50 focus:ring-offset-2 focus:ring-offset-charcoal min-h-[44px] sm:min-h-[48px]"
-            >
-              <span className="relative z-10">Reserve</span>
-            </button>
+    <section className="relative bg-charcoal">
+      {/* Split layout: text left, image right */}
+      <div className="grid lg:grid-cols-2 min-h-[60vh] sm:min-h-[70vh] lg:min-h-[80vh]">
+        {/* Text side - left */}
+        <div className="flex items-center justify-center p-6 sm:p-12 md:p-16 lg:p-24 relative order-2 lg:order-1">
+          <div className="max-w-xl w-full space-y-6 sm:space-y-8 md:space-y-10 relative z-10">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-off-white tracking-[0.02em] leading-relaxed">
+              Reserve Your Place
+            </h2>
             
-            <p className="mt-6 sm:mt-10 text-xs text-off-white/40 font-light tracking-[0.05em] uppercase">
-              Secure checkout powered by Stripe
-            </p>
+            <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base md:text-lg text-off-white/70 font-normal tracking-wide leading-relaxed">
+              <p>
+                Secure your reservation through our secure checkout process. 
+                Limited availability.
+              </p>
+              
+              {/* Deposit clarification */}
+              <p className="text-xs sm:text-sm text-off-white/60 font-normal tracking-wide">
+                $5,000 refundable reservation deposit. Final specifications confirmed during the fit process.
+              </p>
+              
+              {/* Imagery clarification */}
+              <p className="text-xs sm:text-sm text-off-white/50 font-normal tracking-wide italic">
+                Final production specifications and component selection will be listed for the limited Kielo Founding Series.
+              </p>
+            </div>
+            
+            <div className="pt-4 sm:pt-6">
+              <button
+                onClick={handleReserve}
+                className="group relative inline-flex items-center justify-center px-8 sm:px-12 md:px-16 py-3 sm:py-4 md:py-5 text-xs sm:text-sm md:text-base font-medium tracking-[0.15em] uppercase text-off-white bg-mineral-purple rounded-full transition-all duration-300 hover:bg-nordic-night focus:outline-none focus:ring-2 focus:ring-mineral-purple/50 focus:ring-offset-2 focus:ring-offset-charcoal min-h-[44px] sm:min-h-[48px]"
+              >
+                <span className="relative z-10">Reserve</span>
+              </button>
+              
+              <p className="mt-6 sm:mt-10 text-xs text-off-white/40 font-light tracking-[0.05em] uppercase">
+                Secure checkout powered by Stripe
+              </p>
+            </div>
           </div>
+        </div>
+        
+        {/* Image side - right */}
+        <div 
+          className="relative min-h-[40vh] sm:min-h-[50vh] lg:min-h-full order-1 lg:order-2"
+          style={{
+            backgroundImage: `url(${ctaImage})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          <div className="absolute inset-0 bg-charcoal/20" />
         </div>
       </div>
     </section>

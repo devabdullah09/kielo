@@ -21,7 +21,7 @@ const Contact = () => {
         {/* Text side */}
         <div className="flex items-center justify-center p-6 sm:p-12 md:p-16 lg:p-24 relative order-2">
           <div className="max-w-xl w-full space-y-6 sm:space-y-8 md:space-y-10 relative z-10">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-text-purple tracking-[0.02em] leading-relaxed">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-off-white tracking-[0.02em] leading-relaxed">
               Contact
             </h2>
             
@@ -70,7 +70,7 @@ const Contact = () => {
               </p>
             </div>
             
-            {/* Right side - email, refund policy link, and social icons */}
+            {/* Right side - email, delivery timing, refund policy link, and social icons */}
             <div className="flex flex-col items-end space-y-2 sm:space-y-2.5">
               <a 
                 href="mailto:hello@kielo.cc" 
@@ -78,6 +78,10 @@ const Contact = () => {
               >
                 hello@kielo.cc
               </a>
+              
+              <p className="text-xs text-off-white/50 font-normal tracking-wide">
+                Estimated deliveries begin June 2026
+              </p>
               
               <a 
                 href="#refund-policy" 

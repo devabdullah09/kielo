@@ -18,12 +18,12 @@ function App() {
       <WhatIsKielo />
       <ConceptualBridge />
       <HowWeBuildTrust />
-      <ImageSection image="/images/DSC04478.JPG" height="medium" />
+      <ImageSection image="/images/DSC04470.JPG" height="medium" />
       <ReservationDetails />
       <ImageSection image="/images/IMG_9761.jpeg" height="medium" />
       <CallToAction />
       <RefundPolicy />
-      <ImageSection image="/images/Kielo-v2-15.jpg" height="short" />
+      <ImageSection image="/images/IMG_9761.jpeg" height="tall" />
       <Contact />
     </div>
   )
