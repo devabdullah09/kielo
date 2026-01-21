@@ -1,14 +1,10 @@
 const CallToAction = () => {
-  // Placeholder for Stripe Checkout URL
-  const stripeCheckoutUrl = "#"
-  const ctaImage = '/images/Kieloflower.jpeg' // Kielo flowers image
+  // Live Stripe Checkout URL
+  const stripeCheckoutUrl = "https://buy.stripe.com/6oUaEWdzpguZ5CL3EY7Vm00"
+  const ctaImage = '/images/kielo.jpg'
 
   const handleReserve = () => {
-    if (stripeCheckoutUrl && stripeCheckoutUrl !== "#") {
-      window.open(stripeCheckoutUrl, "_blank")
-    } else {
-      console.log("Stripe Checkout URL will be configured here")
-    }
+    window.open(stripeCheckoutUrl, "_blank")
   }
 
   return (
@@ -21,24 +17,24 @@ const CallToAction = () => {
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-off-white tracking-[0.02em] leading-relaxed">
               Reserve Your Place
             </h2>
-            
+
             <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base md:text-lg text-off-white/70 font-normal tracking-wide leading-relaxed">
               <p>
-                Secure your reservation through our secure checkout process. 
+                Secure your reservation through our secure checkout process.
                 Limited availability.
               </p>
-              
+
               {/* Deposit clarification */}
               <p className="text-xs sm:text-sm text-off-white/60 font-normal tracking-wide">
                 $5,000 refundable reservation deposit. Final specifications confirmed during the fit process.
               </p>
-              
+
               {/* Imagery clarification */}
               <p className="text-xs sm:text-sm text-off-white/50 font-normal tracking-wide italic">
                 Final production specifications and component selection will be listed for the limited Kielo Founding Series.
               </p>
             </div>
-            
+
             <div className="pt-4 sm:pt-6">
               <button
                 onClick={handleReserve}
@@ -46,16 +42,16 @@ const CallToAction = () => {
               >
                 <span className="relative z-10">Reserve</span>
               </button>
-              
+
               <p className="mt-6 sm:mt-10 text-xs text-off-white/40 font-light tracking-[0.05em] uppercase">
                 Secure checkout powered by Stripe
               </p>
             </div>
           </div>
         </div>
-        
+
         {/* Image side - right */}
-        <div 
+        <div
           className="relative min-h-[40vh] sm:min-h-[50vh] lg:min-h-full order-1 lg:order-2"
           style={{
             backgroundImage: `url(${ctaImage})`,

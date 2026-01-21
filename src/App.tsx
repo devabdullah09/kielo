@@ -8,6 +8,7 @@ import ImageSection from './components/ImageSection'
 import ReservationDetails from './components/ReservationDetails'
 import CallToAction from './components/CallToAction'
 import RefundPolicy from './components/RefundPolicy'
+import Philosophy from './components/Philosophy'
 import Contact from './components/Contact'
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
       <ImageSection image="/images/IMG_9761.jpeg" height="medium" />
       <CallToAction />
       <RefundPolicy />
-      <ImageSection image="/images/IMG_9761.jpeg" height="tall" />
+      <Philosophy />
+      <ImageSection image="/images/IMG_9761.jpeg" height="tall" cropPosition="bottom" />
       <Contact />
     </div>
   )

@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://buy.stripe.com/6oUaEWdzpguZ5CL3EY7Vm00On",
+      "permanent": false
+    }
+  ]
+}
